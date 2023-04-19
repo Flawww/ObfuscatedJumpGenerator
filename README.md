@@ -5,7 +5,7 @@ Usually calls or jumps are implemented in assembly as a simple `call` or `jmp` t
 
 The generated shellcode can be tweaked by changing the parameters at the top of [obfuscated_jump_generator.h](obfuscated_jump_generator.h), the available parameters are `MIN_OBFUSCATION_OPERATIONS, MAX_OBFUSCATION_OPERATIONS, MAX_INDIVIDUAL_OPERATIONS, MAX_JUNK_OPERATIONS`.
 
-## Example generated obfuscated shellcode
+## Example of generated shellcode
 ```assembly
 PUSH EDX
 MOV EDX, F2993ECFh
